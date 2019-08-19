@@ -1,0 +1,21 @@
+ul.timer {
+  list-style: none;
+  font-size: 20px;
+}
+
+ul.timer.hasPause:hover {
+  cursor: pointer;
+}
+
+ul.timer > li {
+  float: left;
+}
+
+ul.timer > li {
+  color: #34495e;
+}
+
+ul.timer > li:nth-child(2n) {
+  color: #2c3e50;
+}
+/*# sourceMappingURL=style.css.map */

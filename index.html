@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="scss/style.css">
+
+
+</head>
+
+<body>
+    <!-- <p id="p1">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur cupiditate saepe vero repudiandae, labore a, illum itaque obcaecati esse ipsum pariatur ad provident blanditiis, tempora commodi? Deleniti alias ut illo?
+  </p> -->
+    <ul id="timer1" data-timer="00:00:20">    </ul>
+
+<br>
+    <ul id="timer2" data-timer="00:01:00"></ul>
+    <!-- <ul class="timer" data-timer="00:00:20">
+        <li>00</li>
+        <li>:</li>
+        <li>14</li>
+        <li>:</li>
+        <li>59</li>
+    </ul> -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- <script src="js/custom.js"></script> -->
+    <script src="js/timer.js"></script>
+
+    <script>
+        //   $('#p1').hide();
+        // $('#p1').css({'color':'red'});
+        $('#timer1').timer({dotColor:'#e67e22',digitColor:'#27ae60',hasPause:true});
+        $('#timer2').timer();
+    </script>
+
+</body>
+
+</html>
